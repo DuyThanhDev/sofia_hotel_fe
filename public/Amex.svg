@@ -1,0 +1,18 @@
+<svg width="61" height="46" viewBox="0 0 61 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Payment Method/Amex" filter="url(#filter0_d_92_7679)">
+<rect id="BASE" x="9.32292" y="9.32292" width="42.3542" height="27.3542" rx="13.6771" fill="#1F72CD" stroke="#D9D9D9" stroke-width="2.64583"/>
+<path id="AMEX" fill-rule="evenodd" clip-rule="evenodd" d="M16.0658 18.625L11.8555 27.6834H16.8958L17.5206 26.2391H18.9489L19.5738 27.6834H25.1217V26.5811L25.6161 27.6834H28.4859L28.9803 26.5578V27.6834H40.5186L41.9215 26.2766L43.2353 27.6834L49.1616 27.6951L44.938 23.1795L49.1616 18.625H43.3272L41.9614 20.0058L40.6891 18.625H28.137L27.0591 20.9631L25.956 18.625H20.9262V19.6898L20.3667 18.625H16.0658ZM33.296 19.9117H39.9218L41.9484 22.04L44.0402 19.9117H46.0667L42.9876 23.1787L46.0667 26.4079H43.9483L41.9218 24.255L39.8193 26.4079H33.296V19.9117ZM34.9342 22.4443V21.2578V21.2566H39.0685L40.8724 23.1543L38.9885 25.0623H34.9342V23.7669H38.5488V22.4443H34.9342ZM17.0404 19.9117H19.4973L22.29 26.0543V19.9117H24.9814L27.1385 24.3159L29.1264 19.9117H31.8044V26.4118H30.1749L30.1616 21.3184L27.786 26.4118H26.3283L23.9394 21.3184V26.4118H20.5872L19.9516 24.9545H16.5182L15.884 26.4105H14.0879L17.0404 19.9117ZM17.1058 23.6071L18.237 21.0112L19.3669 23.6071H17.1058Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_92_7679" x="0.440945" y="0.440945" width="60.1181" height="45.1181" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="3.77953"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_92_7679"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_92_7679" result="shape"/>
+</filter>
+</defs>
+</svg>

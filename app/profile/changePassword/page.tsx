@@ -17,6 +17,14 @@ export default function ChangePassword() {
     router.push("/profile/profileDetail"); // Đường dẫn tới trang profileDetail
   };
 
+  const navigateToPaymentMethod = () => {
+    router.push("/profile/paymentMethod"); // Đường dẫn tới trang paymentMethod
+  };
+
+  const navigateToHistory = () => {
+    router.push("/profile/historyDeal/historyPast"); // Đường dẫn tới tr
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
@@ -66,20 +74,20 @@ export default function ChangePassword() {
               <Key size={20} />
               Cập nhật mật khẩu
             </Link>
-            <Link
-              href="#"
-              className="flex items-center gap-3 px-3 py-2 text-sm rounded-lg text-gray-700 hover:bg-gray-100"
+            <div
+              onClick={navigateToPaymentMethod}
+              className="flex items-center gap-3 px-3 py-2 text-sm rounded-lg text-gray-700 hover:bg-gray-100 cursor-pointer"
             >
               <CreditCard size={20} />
               Phương thức thanh toán
-            </Link>
-            <Link
-              href="#"
-              className="flex items-center gap-3 px-3 py-2 text-sm rounded-lg text-gray-700 hover:bg-gray-100"
+            </div>
+            <div
+              onClick={navigateToHistory}
+              className="flex items-center gap-3 px-3 py-2 text-sm rounded-lg text-gray-700 hover:bg-gray-100 cursor-pointer"
             >
               <Clock size={20} />
               Lịch sử giao dịch
-            </Link>
+            </div>
           </nav>
         </div>
 
